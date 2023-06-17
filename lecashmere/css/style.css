@@ -36,4 +36,20 @@ a {
 }
 
 /* main 구간 */
+.main_grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 
+.main_grid > * {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main_grid p {
+  text-align: center;
+}
